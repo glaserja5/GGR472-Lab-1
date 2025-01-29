@@ -1,0 +1,49 @@
+/* Apply a monospace font to the entire website */
+/* Apply a background image to the whole page with "background:" */
+body {
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.6;
+    background: url('kinsmen.jpg') no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0
+}
+
+/* Style the header section */
+header {
+    background-color: #00e6735f;
+    color: black;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Style sections */
+section {
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+}
+
+/* Rectangular button styling */
+.button-link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: #00e6735f;
+    border-radius: 5px;  /* Rounds corners */
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 24px;  /* Adjust padding: top/bottom 12px, left/right 24px */
+    margin: 20px 0; /* Sets margin between buttons */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect style for buttons. */
+.button-link:hover {
+    background-color: #00e673bd;
+    transition: background-color 0.3s ease;
+}
